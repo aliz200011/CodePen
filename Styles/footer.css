@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer > .footer-squares {
+    display: flex;
+    align-items: baseline;
+    background-color: rgb(65, 64, 64);
+    width: 466px;
+    height: 65px;
+    padding: 10px;
+
+    margin-top: -50px;
+}
+
+.footer > .footer-squares > .codepen-for {
+    color: white;
+    margin-left: 130px;
+    font-size: 1.2em;
+}
+
+.footer > .footer-squares > .bold-writing {
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    margin-left: 5px;
+    font-family: 'Anton', sans-serif;
+}
+
+.footer > .footer-squares {    
+    border: 2px solid rgb(146, 146, 146);
+
+}
+
+.bottom-color {
+    background-image: url(../Images/Blacksquare.webp);
+    padding: 50px;
+    height: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
